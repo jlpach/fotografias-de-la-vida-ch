@@ -1,0 +1,301 @@
+/* ------ estilos generales inicia ------ */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Poppins, Montserrat, Arial, "Helvetica Neue";
+  }
+
+a {
+    text-decoration: none;
+}
+
+.ver-link-underline {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ------ Header inicia ------ */
+header {
+    padding: 10px 20px;
+    height: 15vh;
+}
+
+.logo-img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.header-menu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-list-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-list-container li {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+.border-line-header {
+    border: 1px solid black;
+}
+
+/* ------ Portada inicia ------ */
+.portada-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 88vh; */
+    overflow: hidden;
+}
+
+.portada-img-main {
+    width: 100%; 
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+/* ------ Seccion Trabajos inicia ------ */
+.trabajos-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px 100px;
+    height: 15vh;
+}
+
+.trabajos-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   /*  height: 75vh; */ 
+}
+
+.card-trabajos {
+    width: 300px;
+    height: 440px;
+    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
+    border: .5px solid gray;
+    border-radius: 5px;
+    margin: 20px 25px;
+}
+
+.trabajo-img {
+    width: 100%;
+    height: 90%;
+}
+
+.card-texto {
+    text-align: center;
+    font-weight: 300;
+}
+
+/* ------ Seccion Servicios inicia ------ */
+.servicio-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 100px;
+    height: 15vh;
+}
+
+.section-img-container {
+display: flex;
+justify-content: space-evenly;
+
+flex-wrap: wrap;
+}
+
+.servicio-img {
+    margin: 20px 0px;
+    object-fit: cover;
+    width: 50%;
+    height: 85vh;
+}
+
+.menu-tamaño {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+/* ------ Seccion Blog finaliza ------ */
+.blog-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 100px;
+    height: 15vh;
+}
+
+.blog-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 85vh;  */
+}
+
+.blog-card {
+    width: 300px;
+    height: 440px;
+    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
+    border: .5px solid gray;
+    border-radius: 5px;
+    margin: 20px 25px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 90%;
+}
+
+/* ------ Seccion Main inicia ------ */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-container img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    
+}
+
+.main-container h1 {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 500;
+    color: rgb(230, 231, 218);  
+    text-align: center;
+    padding: 40px;
+}
+
+/* ------ Seccion Footer inicia ------ */
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "f1 f1 f2"
+    "f3 f3 f3"
+    ;
+    background-color: #2B2B2B;
+ /*    padding: 20px; */
+/*     height: 80vh; */
+}
+
+.footer-1 {
+    grid-area: f1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;    
+}
+
+.footer-1-suscribete {
+    padding-bottom: 50px;
+    font-size: 4rem;
+} 
+
+.footer-1-desc {
+    padding-bottom: 10px;
+    font-size: 2 rem;
+}
+
+.footer-2 {
+    grid-area: f2;
+    justify-self: right;
+    align-self:flex-start;
+    padding: 40px;
+}
+
+.footer-2 li {
+padding: 10px;
+}
+
+.footer-3 {
+    grid-area: f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container p {
+    color: snow;
+}
+
+.footer-container a {
+    color: snow;
+}
+
+.text-footer {
+    font-size: 7rem;
+    text-align: center; 
+}
+
+.suscribirse-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.suscribirse-email input {
+    height: 30px;
+    width: 250px;
+}
+
+.suscribirse-email button {
+    height: 30px;
+    width: auto;
+    padding: 5px;
+}
+
+/* .servicios-main-container {
+    width: 350px;
+}
+
+.servicios-main-container img {
+    width: 100%;
+}
+
+.section-form-container div p {
+    font-size: 1.5rem;
+}
+
+.main-blog-container {
+    width: 350px;
+}
+
+.main-blog-container img {
+    width: 100%;
+}
+
+.main-acerca-container img {
+    width: 100%;
+} */

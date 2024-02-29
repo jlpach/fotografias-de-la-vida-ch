@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Link para estilos (CSS) -->
+		<link rel="stylesheet" href="../style.css" />
+
+		<!-- Link para Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+			rel="stylesheet" />
+
+		<title>Servicios</title>
+	</head>
+	<body>
+		<!-- Header con logotipo (debe ser usado para todas las paginas) y navbar -->
+		<header>
+			<img src="../img/logo.png" alt="Logotipo imagenes de la vida" />
+			<nav class="nav-top-menu">
+				<ul>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/trabajos.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Trabajos</a
+						>
+					</li>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/servicios.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Servicios</a
+						>
+					</li>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/blog.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Blog</a
+						>
+					</li>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/acerca-de.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Acerca de</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Finaliza header -->
+
+		<h1 class="border-line-header"></h1>
+
+		<!-- Main -->
+		<main class="servicios-main-container">
+			<h1>Servicios</h1>
+			<div>
+				<img src="../img/imagen-servicio-1.jpg" alt="Retratos" />
+				<p>Retratos con marca</p>
+			</div>
+			<div>
+				<img src="../img/imagen-servicio-2.jpg" alt="Iluminacion" />
+				<p>Iluminación natural</p>
+			</div>
+			<div>
+				<img src="../img/imagen-pareja-playa.jpg" alt="Grupos" />
+				<p>Grupos</p>
+			</div>
+		</main>
+		<!-- Finaliza main -->
+
+		<!-- Seccion de formulario -->
+		<section class="section-form-container">
+			<div>
+				<p>Contáctame para preguntar sobre mis servicios</p>
+			</div>
+			<form action="form.php" method="post">
+				<div>
+					<label for="nombre">Nombre: </label>
+					<input type="text" name="nombre" id="nombre" />
+				</div>
+				<div>
+					<label for="apellido">Apellido: </label>
+					<input type="text" name="apellido" id="apellido" />
+				</div>
+				<div>
+					<label for="correo">Correo electronico: </label>
+					<input type="email" name="correo" id="correo" />
+				</div>
+				<div>
+					<label for="comentarios">Mensaje (Obligatorio)</label>
+					<textarea
+						name="comentarios"
+						id="comentarios"
+						cols="30"
+						rows="10"></textarea>
+				</div>
+
+				<input type="submit" value="ENVIAR" />
+			</form>
+		</section>
+		<!-- Finaliza Seccion de formulario -->
+
+		<!-- Footer -->
+		<footer class="footer-container">
+			<div>
+				<p>SUSCRIBETE</p>
+				<p>
+					Regístrate con tu dirección de correo electrónico para recibir
+					noticias e impresiones exclusivas
+				</p>
+				<input type="text" name="email" placeholder="Ingresa tu email" />
+				<button>Suscribirse</button>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/trabajos.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Trabajos</a
+						>
+					</li>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/servicios.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Servicios</a
+						>
+					</li>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/blog.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Blog</a
+						>
+					</li>
+					<li>
+						<a
+							href="http://127.0.0.1:5500/pages/acerca-de.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Acerca de</a
+						>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p class="text-footer">TEXTO REALMENTE GRANDE</p>
+			</div>
+		</footer>
+		<!-- Finaliza Footer -->
+	</body>
+</html>
