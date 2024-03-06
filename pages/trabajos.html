@@ -18,10 +18,14 @@
 	</head>
 	<body>
 		<!-- Header con logotipo (debe ser usado para todas las paginas) y navbar -->
-		<header>
-			<img src="../img/logo.png" alt="Logotipo imagenes de la vida" />
+		<header class="header-menu-container">
+			<img
+				src="../img/logo.png"
+				class="logo-img"
+				alt="Logotipo imagenes de la vida" />
+
 			<nav class="nav-top-menu">
-				<ul>
+				<ul class="menu-list-container">
 					<li>
 						<a href="./trabajos.html" rel="noopener noreferrer">Trabajos</a>
 					</li>
@@ -42,54 +46,67 @@
 		<h1 class="border-line-header"></h1>
 
 		<!-- Main -->
-		<main>
+		<main class="main-container-trabajos">
 			<h1>Trabajos</h1>
-			<div>
+			<div class="trabajos-cards-container">
 				<img
 					src="../img/imagen-paisaje-carretera.jpg"
 					alt="Ambientes"
-					class="trabajo-img" />
+					class="card-trabajos" />
 				<img
 					src="../img/imagen-espontaneo.jpg"
 					alt="Espontáneas"
-					class="trabajo-img" />
+					class="card-trabajos" />
 				<img
 					src="../img/imagen-editorial.jpg"
 					alt="Editoriales"
-					class="trabajo-img" />
+					class="card-trabajos" />
 			</div>
 		</main>
 		<!-- Finaliza main -->
 
 		<!-- Footer -->
 		<footer class="footer-container">
-			<div>
-				<p>SUSCRIBETE</p>
-				<p>
+			<div class="footer-1">
+				<p class="footer-1-suscribete">SUSCRIBETE</p>
+				<p class="footer-1-desc">
 					Regístrate con tu dirección de correo electrónico para recibir
 					noticias e impresiones exclusivas
 				</p>
-				<input type="text" name="email" placeholder="Ingresa tu email" />
-				<button>Suscribirse</button>
+				<div class="suscribirse-email">
+					<input
+						type="email"
+						class="email"
+						name="email"
+						placeholder="Ingresa tu email" />
+					<input type="button" class="button-suscribete" value="Suscribete" />
+				</div>
 			</div>
-			<div>
+			<div class="footer-2">
 				<ul>
 					<li>
-						<a href="./trabajos.html" rel="noopener noreferrer">Trabajos</a>
+						<a href="./pages/trabajos.html" rel="noopener noreferrer"
+							>Trabajos</a
+						>
 					</li>
 					<li>
-						<a href="./servicios.html" rel="noopener noreferrer">Servicios</a>
+						<a href="./pages/servicios.html" rel="noopener noreferrer"
+							>Servicios</a
+						>
 					</li>
 					<li>
-						<a href="./blog.html" rel="noopener noreferrer">Blog</a>
+						<a href="./pages/blog.html" rel="noopener noreferrer">Blog</a>
 					</li>
 					<li>
-						<a href="./acerca-de.html" rel="noopener noreferrer">Acerca de</a>
+						<a href="./pages/acerca-de.html" rel="noopener noreferrer"
+							>Acerca de</a
+						>
 					</li>
 				</ul>
 			</div>
-			<div>
-				<p class="text-footer">TEXTO REALMENTE GRANDE</p>
+			<div class="footer-3">
+				<div class="text-footer">IMÁGENES DE LA VIDA</div>
+				<div class="text-reservado">@ Derechos Reservados</div>
 			</div>
 		</footer>
 		<!-- Finaliza Footer -->
