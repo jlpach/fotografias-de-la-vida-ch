@@ -215,6 +215,7 @@ flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
     padding: 40px;    
+    color: snow;
 }
 
 .footer-1-suscribete {
@@ -225,6 +226,14 @@ flex-wrap: wrap;
 .footer-1-desc {
     padding-bottom: 10px;
     font-size: 2 rem;
+}
+
+.email {
+    margin-right: 20px;
+}
+
+.button-suscribete {
+    border-radius: 5px;
 }
 
 .footer-2 {
@@ -241,11 +250,9 @@ padding: 10px;
 .footer-3 {
     grid-area: f3;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.footer-container p {
     color: snow;
 }
 
@@ -256,6 +263,10 @@ padding: 10px;
 .text-footer {
     font-size: 7rem;
     text-align: center; 
+}
+
+.text-reservado {
+    font-size: small;
 }
 
 .suscribirse-email {
