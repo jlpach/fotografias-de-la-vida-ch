@@ -53,7 +53,7 @@ header nav ul {
 }
 
 .border-line-header {
-    border: 1px solid black;
+    border: 0.5px solid black;
 }
 
 /* ------ Portada inicia ------ */
@@ -199,9 +199,10 @@ flex-wrap: wrap;
 .footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
     "f1 f1 f2"
+    "f4 f4 f4"
     "f3 f3 f3"
     ;
     background-color: #2B2B2B;
@@ -285,6 +286,15 @@ padding: 10px;
     height: 30px;
     width: auto;
     padding: 5px;
+}
+
+.footer-4 {
+    grid-area: f4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;    
+    color: snow;
 }
 
 /* ------ Seccion Main en tab Trabajos inicia ------ */
