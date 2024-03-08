@@ -53,7 +53,7 @@ header nav ul {
 }
 
 .border-line-header {
-    border: 0.5px solid black;
+    border: 0.3px solid black;
 }
 
 /* ------ Portada inicia ------ */
@@ -164,7 +164,7 @@ flex-wrap: wrap;
 
 .blog-img {
     width: 100%;
-    height: 90%;
+    height: 90%; 
 }
 
 /* ------ Seccion Main inicia ------ */
@@ -298,11 +298,23 @@ padding: 10px;
 }
 
 /* ------ Seccion Main en tab Trabajos inicia ------ */
-.main-container-trabajos {
+.main-container-pages {
     margin-bottom: 90px;  
 }
 
-.main-container-trabajos h1 {
+.main-container-pages h1 {
     padding: 40px 0px;
     margin-left: 20px;
+}
+
+.servicios-main-imgs-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-titulo-contactame {
+    margin: 40px;
+    font-size: 2rem;
 }
