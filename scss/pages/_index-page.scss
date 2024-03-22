@@ -1,4 +1,4 @@
-/* ------ Pages - Index ------ */
+/* ------ PAGES - INDEX ------ */
 .portada-container {
     display: flex;
     justify-content: center;
@@ -12,3 +12,143 @@
     aspect-ratio: 16/9;
     object-fit: cover;
 }
+
+/* ------ SECCION TRABAJOS ------ */
+.trabajos-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px 100px;
+    height: 15vh;
+}
+
+.trabajos-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   /*  height: 75vh; */ 
+}
+
+.card-trabajos {
+    width: 300px;
+    height: 440px;
+    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
+    border: .5px solid gray;
+    border-radius: 5px;
+    margin: 20px 25px;
+}
+
+.trabajo-img {
+    width: 100%;
+    height: 90%;
+}
+
+.card-texto {
+    text-align: center;
+    font-weight: 300;
+}
+
+/* ------ SECCION SERVICIOS ------ */
+.servicio-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 100px;
+    height: 15vh;
+}
+
+.section-img-container {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.servicio-img {
+    margin: 20px 0px;
+    object-fit: cover;
+    width: 50%;
+    height: 85vh;
+}
+
+.menu-tamaño {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+/* ------ SECCION BLOG ------ */
+.blog-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 100px;
+    height: 15vh;
+}
+
+.blog-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 85vh;  */
+}
+
+.blog-card {
+    width: 300px;
+    height: 440px;
+    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
+    border: .5px solid gray;
+    border-radius: 5px;
+    margin: 20px 25px;
+}
+
+.blog-page-card {
+    width: 300px;
+    height: 540px;
+    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
+    border: .5px solid gray;
+    border-radius: 5px;
+    margin: 20px 25px;
+    a {
+        display: flex;
+        justify-content: flex-end;
+        font-size: smaller;
+    }
+}
+
+.blog-img {
+    width: 100%;
+    height: 90%; 
+}
+
+.blog-page-img {
+    width: 100%;
+    height: 75%; 
+}
+
+/* ------ SECCION BANNER ------ */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        
+    }
+    h1 {
+        position: absolute;
+        font-family: Montserrat;
+        font-size: 100px;
+        font-weight: 500;
+        color: rgb(230, 231, 218);  
+        text-align: center;
+        padding: 40px;
+    }
+}
+

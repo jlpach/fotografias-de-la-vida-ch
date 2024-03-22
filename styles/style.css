@@ -68,7 +68,7 @@
 } */
 
 /* ------ Seccion Trabajos inicia ------ */
-.trabajos-encabezado {
+/* .trabajos-encabezado {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -81,13 +81,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   /*  height: 75vh; */ 
 }
 
 .card-trabajos {
     width: 300px;
     height: 440px;
-    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
     border: .5px solid gray;
     border-radius: 5px;
     margin: 20px 25px;
@@ -101,10 +99,10 @@
 .card-texto {
     text-align: center;
     font-weight: 300;
-}
+} */
 
 /* ------ Seccion Servicios inicia ------ */
-.servicio-encabezado {
+/* .servicio-encabezado {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -129,10 +127,10 @@ flex-wrap: wrap;
 .menu-tamaño {
     font-size: 2rem;
     display: inline-block;
-}
+} */
 
 /* ------ Seccion Blog finaliza ------ */
-.blog-encabezado {
+/* .blog-encabezado {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -145,13 +143,11 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* height: 85vh;  */
 }
 
 .blog-card {
     width: 300px;
     height: 440px;
-    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
     border: .5px solid gray;
     border-radius: 5px;
     margin: 20px 25px;
@@ -160,7 +156,6 @@ flex-wrap: wrap;
 .blog-page-card {
     width: 300px;
     height: 540px;
-    /* box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.4); */
     border: .5px solid gray;
     border-radius: 5px;
     margin: 20px 25px;
@@ -180,10 +175,10 @@ flex-wrap: wrap;
     display: flex;
     justify-content: flex-end;
     font-size: smaller;
-}
+} */
 
 /* ------ Seccion Main inicia ------ */
-.main-container {
+/* .main-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,10 +203,10 @@ flex-wrap: wrap;
     color: rgb(230, 231, 218);  
     text-align: center;
     padding: 40px;
-}
+} */
 
 /* ------ Seccion Footer inicia ------ */
-.footer-container {
+/* .footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -221,11 +216,9 @@ flex-wrap: wrap;
     "f3 f3 f3"
     ;
     background-color: #2B2B2B;
- /*    padding: 20px; */
-/*     height: 80vh; */
-}
+} */
 
-.footer-1 {
+/* .footer-1 {
     grid-area: f1;
     display: flex;
     flex-direction: column;
@@ -250,9 +243,9 @@ flex-wrap: wrap;
 
 .button-suscribete {
     border-radius: 5px;
-}
+} 
 
-.footer-2 {
+ .footer-2 {
     grid-area: f2;
     justify-self: right;
     align-self:flex-start;
@@ -310,10 +303,10 @@ padding: 10px;
     align-items: flex-start;
     padding-left: 40px;    
     color: snow;
-}
+} */
 
 /* ------ Seccion Main en tab Trabajos inicia ------ */
-.main-container-pages {
+/* .main-container-pages {
     margin-bottom: 90px;  
 }
 
@@ -337,10 +330,10 @@ padding: 10px;
 .section-titulo-contactame {
     margin: 40px;
     font-size: 2rem;
-}
+} */
 
 /* ------ Acerca de Page inicia ------ */
-.acerca-img-container {
+/* .acerca-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,7 +343,7 @@ padding: 10px;
 }
 
 .acercade-img {
-    width: 100%; 
+    width: 100%;  
     aspect-ratio: 16/9;
     object-fit: cover;
 }
@@ -358,11 +351,11 @@ padding: 10px;
 .acercade-titulo-contactame {
     margin: 40px;
     font-size: 2rem;
-}
+} */
 
 /* Media query desde Desktop */
 /* Mobile */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .trabajos-encabezado {
         align-items: last baseline;
         margin: 0px 20px;
@@ -419,4 +412,4 @@ padding: 10px;
     .acerca-img-container {
         height: auto;
     }
-}
+} */
