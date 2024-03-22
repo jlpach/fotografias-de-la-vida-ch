@@ -13,6 +13,7 @@
 
 		<!-- Link para estilos (CSS) -->
 		<link rel="stylesheet" href="../styles/style.css" />
+		<link rel="stylesheet" href="./../styles/main.css" />
 
 		<!-- Link para Google fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -64,7 +65,7 @@
 		</header>
 		<!-- Finaliza header -->
 
-		<h1 class="border-line-header"></h1>
+		<div class="border-line-header"></div>
 
 		<!-- Main -->
 		<main class="main-container-pages">
@@ -106,16 +107,18 @@
 					Regístrate con tu dirección de correo electrónico para recibir
 					noticias e impresiones exclusivas
 				</p>
-				<div class="suscribirse-email">
-					<input
-						type="email"
-						class="email"
-						name="email"
-						placeholder="Ingresa tu email" />
-					<input type="button" class="button-suscribete" value="Suscribete" />
-				</div>
+				<form>
+					<div class="suscribirse-email">
+						<input
+							type="email"
+							class="email"
+							name="email"
+							placeholder="Ingresa tu email" />
+						<input type="button" class="button-suscribete" value="Suscribete" />
+					</div>
+				</form>
 			</div>
-			<div class="footer-2">
+			<nav class="footer-2">
 				<ul>
 					<li>
 						<a href="./trabajos.html" rel="noopener noreferrer">Trabajos</a>
@@ -130,7 +133,7 @@
 						<a href="./acerca-de.html" rel="noopener noreferrer">Acerca de</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 			<div class="footer-4">
 				<h3>Encuentranos en:</h3>
 				<iframe
@@ -144,8 +147,8 @@
 					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			<div class="footer-3">
-				<div class="text-footer">IMÁGENES DE LA VIDA</div>
-				<div class="text-reservado">@ Derechos Reservados</div>
+				<div class="text-footer"><p>IMÁGENES DE LA VIDA</p></div>
+				<div class="text-reservado"><p>@ Derechos Reservados</p></div>
 			</div>
 		</footer>
 		<!-- Finaliza Footer -->

@@ -1,0 +1,55 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Montserrat, Arial, "Helvetica Neue";
+}
+
+.ver-link-underline {
+  text-decoration: underline;
+}
+
+/* GLOBALES */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.border-line-header {
+  border: 0.3px solid black;
+}
+
+/* ------ HEADER ------ */
+header {
+  padding: 10px 20px;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+header .logo-img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* ------ Pages - Index ------ */
+.portada-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portada-img-main {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=main.css.map */

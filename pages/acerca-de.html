@@ -13,6 +13,7 @@
 
 		<!-- Link para estilos (CSS) -->
 		<link rel="stylesheet" href="../styles/style.css" />
+		<link rel="stylesheet" href="./../styles/main.css" />
 
 		<!-- Link para Google fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -64,7 +65,7 @@
 		</header>
 		<!-- Finaliza header -->
 
-		<h1 class="border-line-header"></h1>
+		<div class="border-line-header"></div>
 
 		<!-- Main -->
 		<main class="main-container-pages">
@@ -79,56 +80,49 @@
 					class="acercade-img"
 					alt="Imagen acerca de mi" />
 			</div>
+
+			<!-- Seccion de formulario -->
+			<section class="section-form-container">
+				<div>
+					<p class="acercade-titulo-contactame">Contáctame</p>
+				</div>
+				<form class="mb-5 container fluid">
+					<div class="row mb-3">
+						<label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="nombre" />
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="apellidos" class="col-sm-2 col-form-label"
+							>Apellidos:</label
+						>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="apellidos" />
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="email" class="col-sm-2 col-form-label">Email:</label>
+						<div class="col-sm-6">
+							<input type="email" class="form-control" id="email" />
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="comentarios" class="col-sm-2 col-form-label"
+							>Comentarios:</label
+						>
+						<div class="col-sm-6">
+							<textarea
+								class="form-control col-sm-12"
+								id="comentarios"></textarea>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+			</section>
+			<!-- Finaliza Seccion de formulario -->
 		</main>
 		<!-- Finaliza main -->
-
-		<!-- Seccion de formulario -->
-		<section class="section-form-container">
-			<div>
-				<p class="acercade-titulo-contactame">Contáctame</p>
-			</div>
-			<form class="mb-5 container fluid">
-				<div class="row mb-3">
-					<label for="inputEmail3" class="col-sm-2 col-form-label"
-						>Nombre:</label
-					>
-					<div class="col-sm-6">
-						<input type="text" class="form-control" id="inputEmail3" />
-					</div>
-				</div>
-				<div class="row mb-3">
-					<label for="inputEmail3" class="col-sm-2 col-form-label"
-						>Apellidos:</label
-					>
-					<div class="col-sm-6">
-						<input type="text" class="form-control" id="inputEmail3" />
-					</div>
-				</div>
-				<div class="row mb-3">
-					<label for="inputEmail3" class="col-sm-2 col-form-label"
-						>Email:</label
-					>
-					<div class="col-sm-6">
-						<input type="email" class="form-control" id="inputEmail3" />
-					</div>
-				</div>
-				<div class="row mb-3">
-					<label for="inputEmail3" class="col-sm-2 col-form-label"
-						>Comments:</label
-					>
-					<div class="col-sm-6">
-						<input
-							type="text"
-							class="form-control"
-							id="inputEmail3"
-							style="height: 100px" />
-					</div>
-				</div>
-				<button type="submit" class="btn btn-primary">Enviar</button>
-			</form>
-		</section>
-		<!-- Finaliza Seccion de formulario -->
-
 		<!-- Footer -->
 		<footer class="footer-container">
 			<div class="footer-1">
@@ -137,16 +131,18 @@
 					Regístrate con tu dirección de correo electrónico para recibir
 					noticias e impresiones exclusivas
 				</p>
-				<div class="suscribirse-email">
-					<input
-						type="email"
-						class="email"
-						name="email"
-						placeholder="Ingresa tu email" />
-					<input type="button" class="button-suscribete" value="Suscribete" />
-				</div>
+				<form>
+					<div class="suscribirse-email">
+						<input
+							type="email"
+							class="email"
+							name="email"
+							placeholder="Ingresa tu email" />
+						<input type="button" class="button-suscribete" value="Suscribete" />
+					</div>
+				</form>
 			</div>
-			<div class="footer-2">
+			<nav class="footer-2">
 				<ul>
 					<li>
 						<a href="./trabajos.html" rel="noopener noreferrer">Trabajos</a>
@@ -161,7 +157,7 @@
 						<a href="./acerca-de.html" rel="noopener noreferrer">Acerca de</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 			<div class="footer-4">
 				<h3>Encuentranos en:</h3>
 				<iframe
@@ -175,8 +171,8 @@
 					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			<div class="footer-3">
-				<div class="text-footer">IMÁGENES DE LA VIDA</div>
-				<div class="text-reservado">@ Derechos Reservados</div>
+				<div class="text-footer"><p>IMÁGENES DE LA VIDA</p></div>
+				<div class="text-reservado"><p>@ Derechos Reservados</p></div>
 			</div>
 		</footer>
 		<!-- Finaliza Footer -->

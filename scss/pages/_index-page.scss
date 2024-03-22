@@ -1,0 +1,14 @@
+/* ------ Pages - Index ------ */
+.portada-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.portada-img-main {
+    width: 100%; 
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
