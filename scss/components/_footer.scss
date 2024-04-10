@@ -1,0 +1,96 @@
+/* ------ FOOTER ------ */
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "f1 f1 f2"
+        "f4 f4 f4"
+        "f3 f3 f3"
+        ;
+        background-color: #2B2B2B;
+        a {
+            color: snow;
+        }
+    }
+
+.footer-1 {
+    grid-area: f1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;    
+    color: snow;
+}
+
+.footer-1-suscribete {
+    padding-bottom: 50px;
+    font-size: 4rem;
+} 
+
+.footer-1-desc {
+    padding-bottom: 10px;
+    font-size: 2 rem;
+}
+
+.email {
+    margin-right: 20px;
+}
+
+.button-suscribete {
+    border-radius: 5px;
+} 
+
+ .footer-2 {
+    grid-area: f2;
+    justify-self: right;
+    align-self:flex-start;
+    padding: 40px;
+    li {
+        padding: 10px;
+        }
+}
+
+.footer-3 {
+    grid-area: f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: snow;
+}
+
+.text-footer {
+    font-size: 7rem;
+    text-align: center; 
+}
+
+.text-reservado {
+    font-size: small;
+}
+
+.suscribirse-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    input {
+        height: 30px;
+        width: 250px;
+    }
+    button {
+        height: 30px;
+        width: auto;
+        padding: 5px;
+    }
+}
+
+.footer-4 {
+    grid-area: f4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;    
+    color: snow;
+}

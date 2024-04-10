@@ -1,0 +1,60 @@
+/*------ MEDIA QUERIES ------*/
+
+@media screen and (max-width: 768px) {
+    .trabajos-encabezado {
+        align-items: last baseline;
+        margin: 0px 20px;
+    }
+
+    .servicio-encabezado {
+        align-items: last baseline;
+        margin: 20px 20px;
+    }
+
+    .blog-encabezado {
+        align-items: last baseline;
+        margin: 20px 20px;
+    }
+
+    .main-container h1 {
+        font-size: 57px;
+        font-weight: 300;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1-suscribete {
+        padding-bottom: 10px;
+        font-size: 1rem;
+    } 
+ 
+    .suscribirse-email input {
+        width: 150px;
+    }
+
+    .footer-2 {
+        padding: 10px 1px;
+    }
+
+    .iframe-maps-mobile {
+        width: 250px;
+        height: 200px;
+    }
+ 
+    .text-footer {
+        font-size: 3rem;
+        text-align: center;
+        padding: 10px 1px; 
+    }
+
+    .servicios-main-imgs-container {
+        justify-content:space-between;
+    }
+
+    .acerca-img-container {
+        height: auto;
+    } 
+}
