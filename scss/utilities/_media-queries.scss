@@ -24,6 +24,9 @@
     .footer-container {
         display: flex;
         flex-direction: column;
+        form {
+            display: flex;
+        }
     }
 
     .footer-1-suscribete {
@@ -32,7 +35,7 @@
     } 
  
     .suscribirse-email input {
-        width: 150px;
+        width: 130px;
     }
 
     .footer-2 {
@@ -51,7 +54,9 @@
     }
 
     .servicios-main-imgs-container {
-        justify-content:space-between;
+        img {
+            width: 300px; 
+        }
     }
 
     .acerca-img-container {

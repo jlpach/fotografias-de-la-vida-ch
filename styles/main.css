@@ -351,12 +351,15 @@ header .logo-img {
     display: flex;
     flex-direction: column;
   }
+  .footer-container form {
+    display: flex;
+  }
   .footer-1-suscribete {
     padding-bottom: 10px;
     font-size: 1rem;
   }
   .suscribirse-email input {
-    width: 150px;
+    width: 130px;
   }
   .footer-2 {
     padding: 10px 1px;
@@ -370,8 +373,8 @@ header .logo-img {
     text-align: center;
     padding: 10px 1px;
   }
-  .servicios-main-imgs-container {
-    justify-content: space-between;
+  .servicios-main-imgs-container img {
+    width: 300px;
   }
   .acerca-img-container {
     height: auto;
